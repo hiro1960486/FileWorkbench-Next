@@ -1,0 +1,38 @@
+{
+  "id": "rename",
+  "name": "一括リネーム",
+  "version": "1.3",
+  "icon": "rename_color.svg",
+  "entrypoint": "fileworkbench.modules.rename.module",
+  "capabilities": [
+    "preview",
+    "rename",
+    "light_mode",
+    "advanced_rules",
+    "serial",
+    "date",
+    "regex"
+  ],
+  "accepted_inputs": [
+    "files",
+    "folder"
+  ],
+  "interface_entrypoint": "fileworkbench.modules.rename.interface",
+  "commands": [
+    "refresh",
+    "preview",
+    "rename",
+    "configure"
+  ],
+  "emitted_events": [
+    "context.received",
+    "command.completed",
+    "module.error",
+    "preview.requested",
+    "files.will_change",
+    "files.changed",
+    "rename.requested",
+    "target.individual_requested"
+  ],
+  "description": "ファイル名の変更候補確認と安全な実行"
+}

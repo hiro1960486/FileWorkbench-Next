@@ -1,0 +1,28 @@
+{
+  "id": "recycle",
+  "name": "ごみ箱・復元",
+  "version": "1.0",
+  "icon": "undo_color.svg",
+  "description": "Windowsごみ箱の検索と復元、照合済み退避履歴からの復元",
+  "entrypoint": "fileworkbench.modules.recycle.module",
+  "interface_entrypoint": "fileworkbench.modules.recycle.interface",
+  "capabilities": [
+    "search",
+    "restore"
+  ],
+  "accepted_inputs": [
+    "folder",
+    "query",
+    "destination"
+  ],
+  "commands": [
+    "search",
+    "restore"
+  ],
+  "emitted_events": [
+    "context.received",
+    "command.completed",
+    "module.error",
+    "target.individual_requested"
+  ]
+}

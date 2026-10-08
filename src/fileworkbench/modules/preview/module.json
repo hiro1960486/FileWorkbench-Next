@@ -1,0 +1,45 @@
+{
+  "id": "preview",
+  "name": "プレビュー",
+  "version": "1.3",
+  "icon": "preview_color.svg",
+  "entrypoint": "fileworkbench.modules.preview.module",
+  "capabilities": [
+    "preview",
+    "next",
+    "previous",
+    "copy",
+    "move",
+    "trash",
+    "pdf",
+    "text",
+    "office_text",
+    "archive_list",
+    "media"
+  ],
+  "accepted_inputs": [
+    "files"
+  ],
+  "emitted_events": [
+    "context.received",
+    "command.completed",
+    "module.error",
+    "preview.requested",
+    "files.will_change",
+    "files.changed",
+    "rename.requested",
+    "target.individual_requested"
+  ],
+  "interface_entrypoint": "fileworkbench.modules.preview.interface",
+  "commands": [
+    "refresh",
+    "next",
+    "previous",
+    "release",
+    "play",
+    "pause",
+    "stop",
+    "seek"
+  ],
+  "description": "選択された画像の表示と前後移動"
+}

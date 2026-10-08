@@ -1,0 +1,240 @@
+FileWorkbench Next 3.3 RC 2026-10-08T12:25:19.520589
+COMMAND: C:\hostedtoolcache\windows\Python\3.12.10\x64\python.exe -m venv D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\.venv
+COMMAND: D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\.venv\Scripts\python.exe -m pip install -r D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\requirements.txt
+Collecting PySide6==6.8.3 (from -r D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\requirements.txt (line 1))
+  Downloading PySide6-6.8.3-cp39-abi3-win_amd64.whl.metadata (5.7 kB)
+Collecting pyinstaller==6.22.3 (from -r D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\requirements.txt (line 2))
+  Downloading pyinstaller-6.22.3-py3-none-win_amd64.whl.metadata (8.5 kB)
+Collecting Send2Trash==1.8.3 (from -r D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\requirements.txt (line 3))
+  Downloading Send2Trash-1.8.3-py3-none-any.whl.metadata (4.0 kB)
+Collecting openpyxl==3.1.5 (from -r D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\requirements.txt (line 4))
+  Downloading openpyxl-3.1.5-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting pywin32>=306 (from -r D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\requirements.txt (line 5))
+  Downloading pywin32-312-cp312-cp312-win_amd64.whl.metadata (11 kB)
+Collecting shiboken6==6.8.3 (from PySide6==6.8.3->-r D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\requirements.txt (line 1))
+  Downloading shiboken6-6.8.3-cp39-abi3-win_amd64.whl.metadata (2.8 kB)
+Collecting PySide6-Essentials==6.8.3 (from PySide6==6.8.3->-r D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\requirements.txt (line 1))
+  Downloading PySide6_Essentials-6.8.3-cp39-abi3-win_amd64.whl.metadata (4.1 kB)
+Collecting PySide6-Addons==6.8.3 (from PySide6==6.8.3->-r D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\requirements.txt (line 1))
+  Downloading PySide6_Addons-6.8.3-cp39-abi3-win_amd64.whl.metadata (4.4 kB)
+Collecting altgraph (from pyinstaller==6.22.3->-r D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\requirements.txt (line 2))
+  Downloading altgraph-0.17.5-py2.py3-none-any.whl.metadata (7.5 kB)
+Collecting packaging>=22.0 (from pyinstaller==6.22.3->-r D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\requirements.txt (line 2))
+  Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting pefile>=2022.5.30 (from pyinstaller==6.22.3->-r D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\requirements.txt (line 2))
+  Downloading pefile-2024.8.26-py3-none-any.whl.metadata (1.4 kB)
+Collecting pyinstaller-hooks-contrib>=2026.7 (from pyinstaller==6.22.3->-r D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\requirements.txt (line 2))
+  Downloading pyinstaller_hooks_contrib-2026.8-py3-none-any.whl.metadata (16 kB)
+Collecting pywin32-ctypes>=0.2.1 (from pyinstaller==6.22.3->-r D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\requirements.txt (line 2))
+  Downloading pywin32_ctypes-0.2.3-py3-none-any.whl.metadata (3.9 kB)
+Collecting setuptools>=42.0.0 (from pyinstaller==6.22.3->-r D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\requirements.txt (line 2))
+  Downloading setuptools-84.0.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting et-xmlfile (from openpyxl==3.1.5->-r D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\requirements.txt (line 4))
+  Downloading et_xmlfile-2.0.0-py3-none-any.whl.metadata (2.7 kB)
+Downloading PySide6-6.8.3-cp39-abi3-win_amd64.whl (561 kB)
+   --------------------------------------- 561.1/561.1 kB 18.7 MB/s eta 0:00:00
+Downloading pyinstaller-6.22.3-py3-none-win_amd64.whl (1.5 MB)
+   ---------------------------------------- 1.5/1.5 MB 37.3 MB/s eta 0:00:00
+Downloading Send2Trash-1.8.3-py3-none-any.whl (18 kB)
+Downloading openpyxl-3.1.5-py2.py3-none-any.whl (250 kB)
+Downloading PySide6_Addons-6.8.3-cp39-abi3-win_amd64.whl (127.9 MB)
+   --------------------------------------- 127.9/127.9 MB 41.2 MB/s eta 0:00:00
+Downloading PySide6_Essentials-6.8.3-cp39-abi3-win_amd64.whl (72.2 MB)
+   ---------------------------------------- 72.2/72.2 MB 43.0 MB/s eta 0:00:00
+Downloading shiboken6-6.8.3-cp39-abi3-win_amd64.whl (1.2 MB)
+   ---------------------------------------- 1.2/1.2 MB 14.1 MB/s eta 0:00:00
+Downloading pywin32-312-cp312-cp312-win_amd64.whl (6.9 MB)
+   ---------------------------------------- 6.9/6.9 MB 85.3 MB/s eta 0:00:00
+Downloading packaging-26.3-py3-none-any.whl (129 kB)
+Downloading pefile-2024.8.26-py3-none-any.whl (74 kB)
+Downloading pyinstaller_hooks_contrib-2026.8-py3-none-any.whl (462 kB)
+Downloading pywin32_ctypes-0.2.3-py3-none-any.whl (30 kB)
+Downloading setuptools-84.0.0-py3-none-any.whl (818 kB)
+   --------------------------------------- 818.2/818.2 kB 34.8 MB/s eta 0:00:00
+Downloading altgraph-0.17.5-py2.py3-none-any.whl (21 kB)
+Downloading et_xmlfile-2.0.0-py3-none-any.whl (18 kB)
+Installing collected packages: altgraph, shiboken6, setuptools, Send2Trash, pywin32-ctypes, pywin32, pefile, packaging, et-xmlfile, PySide6-Essentials, pyinstaller-hooks-contrib, openpyxl, PySide6-Addons, pyinstaller, PySide6
+Successfully installed PySide6-6.8.3 PySide6-Addons-6.8.3 PySide6-Essentials-6.8.3 Send2Trash-1.8.3 altgraph-0.17.5 et-xmlfile-2.0.0 openpyxl-3.1.5 packaging-26.3 pefile-2024.8.26 pyinstaller-6.22.3 pyinstaller-hooks-contrib-2026.8 pywin32-312 pywin32-ctypes-0.2.3 setuptools-84.0.0 shiboken6-6.8.3
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\.venv\Scripts\python.exe -m pip install --upgrade pip
+COMMAND: D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\.venv\Scripts\python.exe -m compileall -q D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\src D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\scripts
+COMMAND: D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\.venv\Scripts\python.exe -m unittest discover -s tests -p test_module*.py -v
+test_build_paths_and_release_package (test_module_architecture.ArchitectureTests.test_build_paths_and_release_package) ... ok
+test_context_copies_and_errors (test_module_architecture.ArchitectureTests.test_context_copies_and_errors) ... ok
+test_event_log_order (test_module_architecture.ArchitectureTests.test_event_log_order) ... ok
+test_explicit_rename_and_compare_inputs (test_module_architecture.ArchitectureTests.test_explicit_rename_and_compare_inputs) ... ok
+test_hash_context_no_dialog_or_scan (test_module_architecture.ArchitectureTests.test_hash_context_no_dialog_or_scan) ... ok
+test_import_failure_isolated_in_both_modes (test_module_architecture.ArchitectureTests.test_import_failure_isolated_in_both_modes) ... ok
+test_manifests_commands_and_descriptors (test_module_architecture.ArchitectureTests.test_manifests_commands_and_descriptors) ... ok
+test_no_duplicate_boxes_and_detach_target (test_module_architecture.ArchitectureTests.test_no_duplicate_boxes_and_detach_target) ... ok
+test_registry_import_has_no_domain_imports (test_module_architecture.ArchitectureTests.test_registry_import_has_no_domain_imports) ... ok
+test_shutdown_recreate_and_subscriptions (test_module_architecture.ArchitectureTests.test_shutdown_recreate_and_subscriptions) ... ok
+test_common_field_and_detached_output (test_module_drop_routing.DropRoutingTests.test_common_field_and_detached_output) ... ok
+test_compare_bottom_side_keeps_other_side (test_module_drop_routing.DropRoutingTests.test_compare_bottom_side_keeps_other_side) ... ok
+test_hash_input_accepts_file (test_module_drop_routing.DropRoutingTests.test_hash_input_accepts_file) ... ok
+test_invalid_folder_drop_stays_in_field (test_module_drop_routing.DropRoutingTests.test_invalid_folder_drop_stays_in_field) ... ok
+test_output_fields_receive_enter_move_drop_without_replacing_input (test_module_drop_routing.DropRoutingTests.test_output_fields_receive_enter_move_drop_without_replacing_input) ... ok
+test_recycle_search_field_receives_folder_and_file (test_module_drop_routing.DropRoutingTests.test_recycle_search_field_receives_folder_and_file) ... ok
+test_table_viewport_keeps_external_drag_move (test_module_drop_routing.DropRoutingTests.test_table_viewport_keeps_external_drag_move) ... ok
+test_detach_all_module_boxes (test_module_extensions.ExtensionGuiTests.test_detach_all_module_boxes) ... ok
+test_extended_selections_and_drop (test_module_extensions.ExtensionGuiTests.test_extended_selections_and_drop) ... ok
+test_manual_preview_context_and_clear (test_module_extensions.ExtensionGuiTests.test_manual_preview_context_and_clear) ... ok
+test_non_windows_recycle_is_explicit (test_module_extensions.ExtensionGuiTests.test_non_windows_recycle_is_explicit) ... ok
+test_pdf_render_and_navigation (test_module_extensions.ExtensionGuiTests.test_pdf_render_and_navigation) ... ok
+test_recycle_filter_and_history (test_module_extensions.ExtensionGuiTests.test_recycle_filter_and_history) ... ok
+test_seek_drag_click_and_stop_interface (test_module_extensions.ExtensionGuiTests.test_seek_drag_click_and_stop_interface) ... ok
+test_text_office_zip_metadata (test_module_extensions.ExtensionGuiTests.test_text_office_zip_metadata) ... ok
+test_actual_wav_duration_and_seek (test_module_extensions.NativeShellAdapterTests.test_actual_wav_duration_and_seek) ... Input #0, wav, from 'C:/Users/RUNNER~1/AppData/Local/Temp/tmpau0l9t9l/test.wav':
+  Duration: 00:00:02.00, bitrate: 128 kb/s
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, 1 channels, s16, 128 kb/s
+ok
+test_shell_restore_uses_item_object_and_preserves_staging (test_module_extensions.NativeShellAdapterTests.test_shell_restore_uses_item_object_and_preserves_staging) ... ok
+test_tree_export_does_not_overwrite (test_module_extensions.NativeShellAdapterTests.test_tree_export_does_not_overwrite) ... ok
+test_filtered_results_can_be_cleared (test_module_extensions.RecycleSearchFeedbackTests.test_filtered_results_can_be_cleared) ... ok
+test_history_failure_does_not_block_native_search (test_module_extensions.RecycleSearchFeedbackTests.test_history_failure_does_not_block_native_search) ... ok
+test_search_failure_is_visible (test_module_extensions.RecycleSearchFeedbackTests.test_search_failure_is_visible) ... ok
+test_backup_failure_keeps_source (test_module_extensions.ServiceTests.test_backup_failure_keeps_source) ... ok
+test_copy_collision_and_folder (test_module_extensions.ServiceTests.test_copy_collision_and_folder) ... ok
+test_move_trash_backup_and_restore (test_module_extensions.ServiceTests.test_move_trash_backup_and_restore) ... ok
+test_nested_selection_destination_and_cancel (test_module_extensions.ServiceTests.test_nested_selection_destination_and_cancel) ... ok
+test_no_overwrite (test_module_extensions.ServiceTests.test_no_overwrite) ... ok
+test_skip_restore (test_module_extensions.ServiceTests.test_skip_restore) ... ok
+test_tampered_backup_refuses_restore (test_module_extensions.ServiceTests.test_tampered_backup_refuses_restore) ... ok
+test_trash_does_not_follow_symlink (test_module_extensions.ServiceTests.test_trash_does_not_follow_symlink) ... ok
+test_contracts_and_boxes (test_module_link.LinkTests.test_contracts_and_boxes) ... ok
+test_folder_root_and_clear (test_module_link.LinkTests.test_folder_root_and_clear) ... ok
+test_multiple_missing_text_and_navigation (test_module_link.LinkTests.test_multiple_missing_text_and_navigation) ... ok
+test_no_loop_and_invalid_payload (test_module_link.LinkTests.test_no_loop_and_invalid_payload) ... ok
+test_selection_replaces_image (test_module_link.LinkTests.test_selection_replaces_image) ... ok
+test_user_and_developer_modes (test_module_link.LinkTests.test_user_and_developer_modes) ... ok
+test_contract_test_does_not_clear_integrated_state (test_module_modes_maintenance.ModeTests.test_contract_test_does_not_clear_integrated_state) ... ok
+test_developer_standalone_is_independent (test_module_modes_maintenance.ModeTests.test_developer_standalone_is_independent) ... ok
+test_file_compare_and_swap (test_module_modes_maintenance.ModeTests.test_file_compare_and_swap) ... ok
+test_light_advanced_configuration_via_if (test_module_modes_maintenance.ModeTests.test_light_advanced_configuration_via_if) ... ok
+test_numeric_sort_keeps_complete_rows (test_module_modes_maintenance.ModeTests.test_numeric_sort_keeps_complete_rows) ... ok
+test_rename_rule_engine (test_module_modes_maintenance.ModeTests.test_rename_rule_engine) ... ok
+test_rename_selected_rows_only_and_backup (test_module_modes_maintenance.ModeTests.test_rename_selected_rows_only_and_backup) ... ok
+test_all_columns_can_resize (test_module_shared_targets.SharedTargetsTests.test_all_columns_can_resize) ... ok
+test_explicit_drop_switches_to_individual (test_module_shared_targets.SharedTargetsTests.test_explicit_drop_switches_to_individual) ... ok
+test_share_toggle_and_restore_individual (test_module_shared_targets.SharedTargetsTests.test_share_toggle_and_restore_individual) ... ok
+test_shared_tree_does_not_loop (test_module_shared_targets.SharedTargetsTests.test_shared_tree_does_not_loop) ... ok
+test_tree_filter_retains_ancestors (test_module_shared_targets.SharedTargetsTests.test_tree_filter_retains_ancestors) ... ok
+
+----------------------------------------------------------------------
+Ran 57 tests in 2.240s
+
+OK
+COMMAND: D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\.venv\Scripts\python.exe -m PyInstaller --noconsole --onefile --clean --noconfirm --distpath D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\dist --workpath D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\build --specpath D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\build --name FileWorkbench_Next --paths D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\src --icon D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\assets\app.ico --hidden-import win32timezone --collect-submodules fileworkbench --collect-data send2trash --add-data D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\assets;assets --add-data D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\docs;docs --add-data D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\src\fileworkbench\modules\compare\module.json;fileworkbench/modules/compare --add-data D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\src\fileworkbench\modules\hash\module.json;fileworkbench/modules/hash --add-data D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\src\fileworkbench\modules\preview\module.json;fileworkbench/modules/preview --add-data D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\src\fileworkbench\modules\recycle\module.json;fileworkbench/modules/recycle --add-data D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\src\fileworkbench\modules\rename\module.json;fileworkbench/modules/rename --add-data D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\src\fileworkbench\modules\tree\module.json;fileworkbench/modules/tree D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\app_main.py
+250 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.8
+250 INFO: Python: 3.12.10
+281 INFO: Platform: Windows-2022Server-10.0.20348-SP0
+281 INFO: Python environment: D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\.venv
+281 INFO: wrote D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\build\FileWorkbench_Next.spec
+281 INFO: Removing temporary files and cleaning cache in C:\Users\runneradmin\AppData\Local\pyinstaller
+734 INFO: Module search paths (PYTHONPATH):
+['D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC',
+ 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\src',
+ 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python312.zip',
+ 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\DLLs',
+ 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib',
+ 'C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64',
+ 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv',
+ 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages',
+ 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\win32',
+ 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\win32\\lib',
+ 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\pythonwin',
+ 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC',
+ 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\src']
+969 INFO: Appending 'datas' from .spec
+969 INFO: checking Analysis
+969 INFO: Building Analysis because Analysis-00.toc is non existent
+984 INFO: Looking for Python shared library...
+984 INFO: Using Python shared library: C:\hostedtoolcache\windows\Python\3.12.10\x64\python312.dll
+984 INFO: Running Analysis Analysis-00.toc
+984 INFO: Target bytecode optimization level: 0
+984 INFO: Initializing module dependency graph...
+984 INFO: Initializing module graph hook caches...
+1000 INFO: Analyzing modules for base_library.zip ...
+2158 INFO: Processing standard module hook 'hook-encodings.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+2549 INFO: Processing standard module hook 'hook-math.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3628 INFO: Processing standard module hook 'hook-pickle.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+4645 INFO: Processing standard module hook 'hook-heapq.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5160 INFO: Caching module dependency graph...
+5192 INFO: Analyzing D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\app_main.py
+5207 INFO: Processing standard module hook 'hook-PySide6.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5379 INFO: Processing standard module hook 'hook-shiboken6.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5506 INFO: Processing standard module hook 'hook-PySide6.QtNetwork.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+8571 INFO: Processing standard module hook 'hook-PySide6.QtCore.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+12748 INFO: Processing standard module hook 'hook-PySide6.QtGui.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+34095 INFO: Processing standard module hook 'hook-PySide6.QtWidgets.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+38100 INFO: Processing standard module hook 'hook-platform.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+38132 INFO: Processing standard module hook 'hook-_ctypes.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+38163 INFO: Processing standard module hook 'hook-pythoncom.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+38241 INFO: Processing standard module hook 'hook-pywintypes.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+38304 INFO: Processing pre-safe-import-module hook 'hook-win32com.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\pre_safe_import_module'
+38382 INFO: Processing standard module hook 'hook-win32com.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+38991 INFO: Processing pre-safe-import-module hook 'hook-gi.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+39023 INFO: Analyzing hidden import 'win32timezone'
+39054 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+39054 INFO: SetuptoolsInfo: initializing cached setuptools info...
+39523 INFO: Analyzing hidden import 'fileworkbench.__main__'
+39523 INFO: Analyzing hidden import 'fileworkbench.core.tree_export'
+39601 INFO: Processing standard module hook 'hook-openpyxl.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+39836 INFO: Processing standard module hook 'hook-xml.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+39851 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+40586 INFO: Analyzing hidden import 'fileworkbench.developer'
+40602 INFO: Analyzing hidden import 'fileworkbench.modules'
+40602 INFO: Analyzing hidden import 'fileworkbench.modules.compare'
+40617 INFO: Analyzing hidden import 'fileworkbench.modules.compare.interface'
+40617 INFO: Analyzing hidden import 'fileworkbench.modules.hash'
+40633 INFO: Analyzing hidden import 'fileworkbench.modules.hash.interface'
+40633 INFO: Analyzing hidden import 'fileworkbench.modules.preview'
+40727 INFO: Processing standard module hook 'hook-PySide6.QtMultimedia.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+43024 INFO: Processing standard module hook 'hook-PySide6.QtMultimediaWidgets.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+43509 INFO: Processing standard module hook 'hook-PySide6.QtPdf.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+44197 INFO: Analyzing hidden import 'fileworkbench.modules.recycle'
+44197 INFO: Analyzing hidden import 'fileworkbench.modules.recycle.interface'
+44212 INFO: Analyzing hidden import 'fileworkbench.modules.rename'
+44239 INFO: Analyzing hidden import 'fileworkbench.modules.rename.interface'
+44244 INFO: Analyzing hidden import 'fileworkbench.modules.tree'
+44244 INFO: Analyzing hidden import 'fileworkbench.modules.tree.interface'
+44244 INFO: Processing module hooks (post-graph stage)...
+44604 INFO: Performing binary vs. data reclassification (211 entries)
+44635 INFO: Looking for ctypes DLLs
+44635 INFO: Analyzing run-time hooks ...
+44650 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+44650 INFO: Including run-time hook 'pyi_rth_pyside6.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+44650 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+44650 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+44650 INFO: Including run-time hook 'pyi_rth_pywintypes.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+44650 INFO: Including run-time hook 'pyi_rth_pythoncom.py' from 'D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+44666 INFO: Creating base_library.zip...
+44682 INFO: Looking for dynamic libraries
+45182 INFO: Extra DLL search directories (AddDllDirectory): ['D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\shiboken6']
+45182 INFO: Extra DLL search directories (PATH): ['D:\\a\\FileWorkbench\\FileWorkbench\\next-build\\FileWorkbench_Next_3.3_RC\\.venv\\Lib\\site-packages\\PySide6']
+47105 INFO: Warnings written to D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\build\FileWorkbench_Next\warn-FileWorkbench_Next.txt
+47137 INFO: Graph cross-reference written to D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\build\FileWorkbench_Next\xref-FileWorkbench_Next.html
+47168 INFO: checking PYZ
+47168 INFO: Building PYZ because PYZ-00.toc is non existent
+47168 INFO: Building PYZ (ZlibArchive) D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\build\FileWorkbench_Next\PYZ-00.pyz
+47450 INFO: Building PYZ (ZlibArchive) D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\build\FileWorkbench_Next\PYZ-00.pyz completed successfully.
+47481 INFO: checking PKG
+47481 INFO: Building PKG because PKG-00.toc is non existent
+47481 INFO: Building PKG (CArchive) FileWorkbench_Next.pkg
+65935 INFO: Building PKG (CArchive) FileWorkbench_Next.pkg completed successfully.
+65935 INFO: Bootloader D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\.venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+65935 INFO: checking EXE
+65935 INFO: Building EXE because EXE-00.toc is non existent
+65935 INFO: Building EXE from EXE-00.toc
+65935 INFO: Copying bootloader EXE to D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\dist\FileWorkbench_Next.exe
+65950 INFO: Copying icon to EXE
+65950 INFO: Copying 0 resources to EXE
+65950 INFO: Embedding manifest in EXE
+65950 INFO: Appending PKG archive to EXE
+65997 INFO: Fixing EXE headers
+66325 INFO: Building EXE from EXE-00.toc completed successfully.
+66341 INFO: Build complete! The results are available in: D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\dist
+COMMAND: D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\.venv\Scripts\python.exe D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\scripts\package_release.py
+D:\a\FileWorkbench\FileWorkbench\next-build\FileWorkbench_Next_3.3_RC\release\FileWorkbench_Next_3.3_RC_Windows_x64.zip
+SUCCESS: dist/FileWorkbench_Next.exe and release/FileWorkbench_Next_3.3_RC_Windows_x64.zip

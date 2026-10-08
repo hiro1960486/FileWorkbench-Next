@@ -1,0 +1,34 @@
+{
+  "id": "tree",
+  "name": "構成ツリー",
+  "version": "1.3",
+  "icon": "folder_color.svg",
+  "entrypoint": "fileworkbench.modules.tree.module",
+  "capabilities": [
+    "browse",
+    "search",
+    "export"
+  ],
+  "accepted_inputs": [
+    "folder"
+  ],
+  "emitted_events": [
+    "context.received",
+    "command.completed",
+    "module.error",
+    "selection.changed",
+    "preview.requested",
+    "files.will_change",
+    "files.changed",
+    "rename.requested",
+    "target.individual_requested"
+  ],
+  "interface_entrypoint": "fileworkbench.modules.tree.interface",
+  "commands": [
+    "scan",
+    "export",
+    "filter",
+    "refresh"
+  ],
+  "description": "フォルダー構成の表示・検索・出力と選択イベント"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "hash",
+  "name": "HASH・重複",
+  "version": "1.3",
+  "icon": "hash_color.svg",
+  "entrypoint": "fileworkbench.modules.hash.module",
+  "capabilities": [
+    "scan",
+    "filter",
+    "export"
+  ],
+  "accepted_inputs": [
+    "folder"
+  ],
+  "interface_entrypoint": "fileworkbench.modules.hash.interface",
+  "commands": [
+    "scan",
+    "filter",
+    "export",
+    "refresh"
+  ],
+  "emitted_events": [
+    "context.received",
+    "command.completed",
+    "module.error",
+    "preview.requested",
+    "files.will_change",
+    "files.changed",
+    "rename.requested",
+    "target.individual_requested"
+  ],
+  "description": "フォルダー内のSHA256計算・重複抽出・CSV出力"
+}

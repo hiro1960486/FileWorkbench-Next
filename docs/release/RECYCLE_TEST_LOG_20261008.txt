@@ -1,0 +1,84 @@
+test_build_paths_and_release_package (test_module_architecture.ArchitectureTests.test_build_paths_and_release_package) ... ok
+test_context_copies_and_errors (test_module_architecture.ArchitectureTests.test_context_copies_and_errors) ... qt.multimedia.symbolsresolver: Couldn't load pipewire-0.3 library
+qt.multimedia.symbolsresolver: Couldn't resolve pipewire-0.3 symbols
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 7.1 LGPL version 2.1 or later
+socket(): Operation not permitted
+socket(): Operation not permitted
+PulseAudioService: pa_context_connect() failed
+ok
+test_event_log_order (test_module_architecture.ArchitectureTests.test_event_log_order) ... ok
+test_explicit_rename_and_compare_inputs (test_module_architecture.ArchitectureTests.test_explicit_rename_and_compare_inputs) ... ok
+test_hash_context_no_dialog_or_scan (test_module_architecture.ArchitectureTests.test_hash_context_no_dialog_or_scan) ... ok
+test_import_failure_isolated_in_both_modes (test_module_architecture.ArchitectureTests.test_import_failure_isolated_in_both_modes) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_manifests_commands_and_descriptors (test_module_architecture.ArchitectureTests.test_manifests_commands_and_descriptors) ... ok
+test_no_duplicate_boxes_and_detach_target (test_module_architecture.ArchitectureTests.test_no_duplicate_boxes_and_detach_target) ... This plugin does not support propagateSizeHints()
+ok
+test_registry_import_has_no_domain_imports (test_module_architecture.ArchitectureTests.test_registry_import_has_no_domain_imports) ... ok
+test_shutdown_recreate_and_subscriptions (test_module_architecture.ArchitectureTests.test_shutdown_recreate_and_subscriptions) ... ok
+test_detach_all_module_boxes (test_module_extensions.ExtensionGuiTests.test_detach_all_module_boxes) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_extended_selections_and_drop (test_module_extensions.ExtensionGuiTests.test_extended_selections_and_drop) ... ok
+test_manual_preview_context_and_clear (test_module_extensions.ExtensionGuiTests.test_manual_preview_context_and_clear) ... ok
+test_non_windows_recycle_is_explicit (test_module_extensions.ExtensionGuiTests.test_non_windows_recycle_is_explicit) ... ok
+test_pdf_render_and_navigation (test_module_extensions.ExtensionGuiTests.test_pdf_render_and_navigation) ... ok
+test_recycle_filter_and_history (test_module_extensions.ExtensionGuiTests.test_recycle_filter_and_history) ... ok
+test_seek_drag_click_and_stop_interface (test_module_extensions.ExtensionGuiTests.test_seek_drag_click_and_stop_interface) ... ok
+test_text_office_zip_metadata (test_module_extensions.ExtensionGuiTests.test_text_office_zip_metadata) ... ok
+test_actual_wav_duration_and_seek (test_module_extensions.NativeShellAdapterTests.test_actual_wav_duration_and_seek) ... Input #0, wav, from '/tmp/tmp60efouos/test.wav':
+  Duration: 00:00:02.00, bitrate: 128 kb/s
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, 1 channels, s16, 128 kb/s
+ok
+test_shell_restore_uses_item_object_and_preserves_staging (test_module_extensions.NativeShellAdapterTests.test_shell_restore_uses_item_object_and_preserves_staging) ... ok
+test_tree_export_does_not_overwrite (test_module_extensions.NativeShellAdapterTests.test_tree_export_does_not_overwrite) ... ok
+test_filtered_results_can_be_cleared (test_module_extensions.RecycleSearchFeedbackTests.test_filtered_results_can_be_cleared) ... ok
+test_history_failure_does_not_block_native_search (test_module_extensions.RecycleSearchFeedbackTests.test_history_failure_does_not_block_native_search) ... ok
+test_search_failure_is_visible (test_module_extensions.RecycleSearchFeedbackTests.test_search_failure_is_visible) ... ok
+test_backup_failure_keeps_source (test_module_extensions.ServiceTests.test_backup_failure_keeps_source) ... ok
+test_copy_collision_and_folder (test_module_extensions.ServiceTests.test_copy_collision_and_folder) ... ok
+test_move_trash_backup_and_restore (test_module_extensions.ServiceTests.test_move_trash_backup_and_restore) ... ok
+test_nested_selection_destination_and_cancel (test_module_extensions.ServiceTests.test_nested_selection_destination_and_cancel) ... ok
+test_no_overwrite (test_module_extensions.ServiceTests.test_no_overwrite) ... ok
+test_skip_restore (test_module_extensions.ServiceTests.test_skip_restore) ... ok
+test_tampered_backup_refuses_restore (test_module_extensions.ServiceTests.test_tampered_backup_refuses_restore) ... ok
+test_trash_does_not_follow_symlink (test_module_extensions.ServiceTests.test_trash_does_not_follow_symlink) ... ok
+test_contracts_and_boxes (test_module_link.LinkTests.test_contracts_and_boxes) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_folder_root_and_clear (test_module_link.LinkTests.test_folder_root_and_clear) ... ok
+test_multiple_missing_text_and_navigation (test_module_link.LinkTests.test_multiple_missing_text_and_navigation) ... ok
+test_no_loop_and_invalid_payload (test_module_link.LinkTests.test_no_loop_and_invalid_payload) ... ok
+test_selection_replaces_image (test_module_link.LinkTests.test_selection_replaces_image) ... ok
+test_user_and_developer_modes (test_module_link.LinkTests.test_user_and_developer_modes) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_contract_test_does_not_clear_integrated_state (test_module_modes_maintenance.ModeTests.test_contract_test_does_not_clear_integrated_state) ... ok
+test_developer_standalone_is_independent (test_module_modes_maintenance.ModeTests.test_developer_standalone_is_independent) ... This plugin does not support propagateSizeHints()
+ok
+test_file_compare_and_swap (test_module_modes_maintenance.ModeTests.test_file_compare_and_swap) ... ok
+test_light_advanced_configuration_via_if (test_module_modes_maintenance.ModeTests.test_light_advanced_configuration_via_if) ... ok
+test_numeric_sort_keeps_complete_rows (test_module_modes_maintenance.ModeTests.test_numeric_sort_keeps_complete_rows) ... ok
+test_rename_rule_engine (test_module_modes_maintenance.ModeTests.test_rename_rule_engine) ... ok
+test_rename_selected_rows_only_and_backup (test_module_modes_maintenance.ModeTests.test_rename_selected_rows_only_and_backup) ... ok
+test_all_columns_can_resize (test_module_shared_targets.SharedTargetsTests.test_all_columns_can_resize) ... ok
+test_explicit_drop_switches_to_individual (test_module_shared_targets.SharedTargetsTests.test_explicit_drop_switches_to_individual) ... ok
+test_share_toggle_and_restore_individual (test_module_shared_targets.SharedTargetsTests.test_share_toggle_and_restore_individual) ... ok
+test_shared_tree_does_not_loop (test_module_shared_targets.SharedTargetsTests.test_shared_tree_does_not_loop) ... ok
+test_tree_filter_retains_ancestors (test_module_shared_targets.SharedTargetsTests.test_tree_filter_retains_ancestors) ... ok
+
+----------------------------------------------------------------------
+Ran 50 tests in 0.830s
+
+OK

@@ -1,0 +1,27 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# Build and generated distribution files
+/build/
+/dist/
+/release/
+*.spec
+/build.log
+*.exe
+# Local settings and operation data
+.env
+.env.*
+!.env.example
+*.log
+.test-workspace/
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store

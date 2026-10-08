@@ -1,0 +1,38 @@
+{
+  "id": "compare",
+  "name": "左右比較",
+  "version": "1.3",
+  "icon": "compare_color.svg",
+  "entrypoint": "fileworkbench.modules.compare.module",
+  "capabilities": [
+    "compare",
+    "filter",
+    "file_compare",
+    "swap",
+    "drag_targets"
+  ],
+  "accepted_inputs": [
+    "left_folder",
+    "right_folder",
+    "left_path",
+    "right_path",
+    "files"
+  ],
+  "interface_entrypoint": "fileworkbench.modules.compare.interface",
+  "commands": [
+    "compare",
+    "filter",
+    "refresh"
+  ],
+  "emitted_events": [
+    "context.received",
+    "command.completed",
+    "module.error",
+    "preview.requested",
+    "files.will_change",
+    "files.changed",
+    "rename.requested",
+    "target.individual_requested"
+  ],
+  "description": "左右フォルダーの比較と絞り込み"
+}

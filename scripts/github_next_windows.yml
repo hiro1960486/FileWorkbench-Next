@@ -1,0 +1,48 @@
+name: FileWorkbench Next Windows validation
+on:
+  pull_request:
+    paths:
+      - 'build-input/next-source.zip'
+      - '.github/workflows/next-windows.yml'
+  push:
+    branches: ['build/next-3.3-windows-20261008']
+permissions:
+  contents: read
+jobs:
+  windows:
+    runs-on: windows-2022
+    timeout-minutes: 30
+    env:
+      PYTHONUTF8: '1'
+      QT_QPA_PLATFORM: offscreen
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          architecture: x64
+      - name: Extract supplied Next source
+        run: python -m zipfile -e build-input/next-source.zip next-build
+      - name: Build and test
+        working-directory: next-build/FileWorkbench_Next_3.3_RC
+        run: python scripts/build_windows.py
+      - name: Test packaged executable
+        working-directory: next-build/FileWorkbench_Next_3.3_RC
+        shell: pwsh
+        run: |
+          $exe = Resolve-Path dist/FileWorkbench_Next.exe
+          $report = Join-Path (Get-Location) 'release/exe-smoke.json'
+          $p = Start-Process -FilePath $exe -ArgumentList @('--smoke-test', $report, '--recycle-self-test', '--dd-self-test') -PassThru
+          if (-not $p.WaitForExit(90000)) { $p.Kill(); throw 'EXE startup timed out' }
+          if (Test-Path $report) { Get-Content $report }
+          if ($p.ExitCode -ne 0) { throw "EXE exited $($p.ExitCode)" }
+          if (-not (Test-Path $report)) { throw 'EXE did not write startup report' }
+          Get-Content $report
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: FileWorkbench-Next-Windows-validation
+          path: |
+            next-build/FileWorkbench_Next_3.3_RC/release/*
+            next-build/FileWorkbench_Next_3.3_RC/build.log
+          if-no-files-found: error

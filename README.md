@@ -55,6 +55,8 @@ MIT License。詳細は [LICENSE.txt](LICENSE.txt) を参照してください�
 
 ## 開発者向け資料
 
+現行3.3 RCの[開発者ガイド](docs/developer/DEVELOPER_GUIDE_3.3_RC.md)と[PowerPoint版](docs/developer/FileWorkbench_Next_3.3_RC_Developer_Guide.pptx)を公開しています。モジュールI/F、開発・保守、ビルド、試験結果と未確認範囲を説明しています。
+
 [3.2.2 RC 開発者ガイド（PowerPoint）](docs/archive/FileWorkbench_3.2.2_Developer_Guide.pptx)を参考資料として保存しています。現行3.3 RCとの違いは[対象版と対応表](docs/archive/README.md)をご確認ください。
 
 現在の仕様はソースのmodule.json・interface.pyとdocs/release内の最新修正記録を優先してください。

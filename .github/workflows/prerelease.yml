@@ -1,0 +1,62 @@
+name: FileWorkbench Next prerelease
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: fileworkbench-prerelease
+  cancel-in-progress: false
+jobs:
+  build-and-publish:
+    runs-on: windows-2022
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          architecture: x64
+      - name: Build and verify executable
+        shell: pwsh
+        run: python scripts/build_windows.py
+      - name: Validate release package
+        shell: pwsh
+        run: |
+          $zip = 'release/FileWorkbench_Next_3.3_RC_Windows_x64.zip'
+          $checksum = 'release/SHA256_RELEASE.txt'
+          foreach ($file in @($zip, $checksum, 'release/exe-smoke.json', 'build.log')) {
+            if (-not (Test-Path $file)) { throw "Missing output: $file" }
+          }
+          $line = (Get-Content $checksum -Raw).Trim()
+          if ($line -notmatch '^([a-fA-F0-9]{64})\s+FileWorkbench_Next_3\.3_RC_Windows_x64\.zip$') { throw 'Invalid checksum format' }
+          $expected = $Matches[1]
+          if ((Get-FileHash $zip -Algorithm SHA256).Hash -ne $expected) { throw 'SHA256 mismatch' }
+          Add-Type -AssemblyName System.IO.Compression.FileSystem
+          $archive = [System.IO.Compression.ZipFile]::OpenRead((Resolve-Path $zip).Path)
+          try {
+            $names = @($archive.Entries | ForEach-Object { $_.FullName })
+            foreach ($required in @('FileWorkbench_Next.exe', 'SHA256_EXE.txt', 'README.txt', 'LICENSE.txt')) {
+              if ($names -notcontains $required) { throw "Missing ZIP entry: $required" }
+            }
+          } finally { $archive.Dispose() }
+      - name: Retain inspected build outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: fileworkbench-next-3.3-rc1-verified
+          path: |
+            release/FileWorkbench_Next_3.3_RC_Windows_x64.zip
+            release/SHA256_RELEASE.txt
+            release/exe-smoke.json
+            build.log
+          if-no-files-found: error
+      - name: Publish verified prerelease only
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $tag = 'v3.3.0-rc1'
+          gh release view $tag --repo "${{ github.repository }}" 2>$null
+          if ($LASTEXITCODE -eq 0) { throw "Release $tag already exists" }
+          gh release create $tag 'release/FileWorkbench_Next_3.3_RC_Windows_x64.zip' 'release/SHA256_RELEASE.txt' 'release/exe-smoke.json' --repo "${{ github.repository }}" --target "${{ github.sha }}" --title 'FileWorkbench Next 3.3 RC1 (開発評価版)' --notes-file 'docs/release/RELEASE_NOTES_v3.3.0-rc1.md' --prerelease

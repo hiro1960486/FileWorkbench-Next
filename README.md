@@ -60,3 +60,7 @@ MIT License。詳細は [LICENSE.txt](LICENSE.txt) を参照してください�
 [3.2.2 RC 開発者ガイド（PowerPoint）](docs/archive/FileWorkbench_3.2.2_Developer_Guide.pptx)を参考資料として保存しています。現行3.3 RCとの違いは[対象版と対応表](docs/archive/README.md)をご確認ください。
 
 現在の仕様はソースのmodule.json・interface.pyとdocs/release内の最新修正記録を優先してください。
+
+## 正式な管理先と整理方針
+
+[3プロジェクトの役割・移行順序・未完了条件](docs/REPOSITORY_CONSOLIDATION_20261010.md)を参照してください。再利用部品はModuForge、Nextの統合アプリと配布はFileWorkbench-Next、従来版の履歴はFileWorkbenchで管理します。管理先の統一と正式版リリースの判定は別です。

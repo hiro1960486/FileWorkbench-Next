@@ -64,3 +64,7 @@ MIT License。詳細は [LICENSE.txt](LICENSE.txt) を参照してください�
 ## 正式な管理先と整理方針
 
 [3プロジェクトの役割・移行順序・未完了条件](docs/REPOSITORY_CONSOLIDATION_20261010.md)を参照してください。再利用部品はModuForge、Nextの統合アプリと配布はFileWorkbench-Next、従来版の履歴はFileWorkbenchで管理します。管理先の統一と正式版リリースの判定は別です。
+
+### 当面の独立開発方針
+
+ModuForgeとFileWorkbench-Nextは、当面それぞれ独立して開発・試験・版管理を進めます。現段階で部品の同期や取り込み、版の連動は行いません。ModuForgeのモジュール・APIが整った後、必要な部品をNextへ組み込む作業を別途行います。
